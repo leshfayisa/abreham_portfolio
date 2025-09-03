@@ -47,8 +47,8 @@ const Experience = () => {
 
   const education = {
     degree: "Bachelor of Science in Electrical and Computer Engineering",
-    institution: "University Name",
-    duration: "2016 - 2020",
+    institution: "Addis Ababa University",
+    duration: "2019 - 2024",
     description: "Studied electrical engineering principles, computer science fundamentals, and software development methodologies. Graduated with honors and completed capstone project on IoT systems."
   }
 
@@ -66,7 +66,7 @@ const Experience = () => {
             Experience & Education
           </h2>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            Over two years of professional experience in software development, with a proven track record 
+            Over four years of professional experience in software development, with a proven track record 
             of delivering high-quality solutions in fast-paced environments.
           </p>
         </motion.div>

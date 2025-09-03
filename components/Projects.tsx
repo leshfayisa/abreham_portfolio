@@ -229,6 +229,7 @@ const Projects = () => {
                     whileTap={{ scale: 0.95 }}
                     className="flex-1 bg-primary-600 hover:bg-primary-700 text-white text-sm font-medium py-2 px-4 rounded-lg transition-colors duration-200"
                     onClick={() => window.open(project.liveUrl, '_blank')}
+                    disabled={project.liveUrl === '#'}
                   >
                     Live Demo
                   </motion.button>
@@ -237,6 +238,7 @@ const Projects = () => {
                     whileTap={{ scale: 0.95 }}
                     className="flex-1 bg-gray-100 hover:bg-gray-200 text-gray-700 text-sm font-medium py-2 px-4 rounded-lg transition-colors duration-200"
                     onClick={() => window.open(project.githubUrl, '_blank')}
+                    disabled={project.githubUrl === '#'}
                   >
                     View Code
                   </motion.button>
